@@ -1,3 +1,4 @@
+# Use an official Node.js runtime as a base image
 FROM node:21
  
 # Set the working directory in the container
@@ -17,4 +18,3 @@ EXPOSE 3000
  
 # Command to run your application
 CMD ["node","app.js"]
-
